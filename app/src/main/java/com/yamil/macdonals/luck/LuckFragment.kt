@@ -5,12 +5,16 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.viewModels
 import com.yamil.macdonals.R
 import com.yamil.macdonals.databinding.FragmentInicioBinding
 import com.yamil.macdonals.databinding.FragmentLuckBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class LuckFragment : Fragment() {
 
+    private val LuckViewModel by viewModels<LuckViewModel>()
     private var _binding: FragmentLuckBinding? = null
     private val binding get() = _binding!!
     override fun onCreateView(

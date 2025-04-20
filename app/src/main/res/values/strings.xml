@@ -6,5 +6,7 @@
     <string name="segundo">Cupones</string>
     <string name="tercero">Mis pedidos</string>
     <string name="Users">Mi perfil</string>
+    <string name="notch">¡Elige como lo prefieres!</string>
+    <string name="notch_dos">Busca una direccion o restaurante</string>
 
 </resources>

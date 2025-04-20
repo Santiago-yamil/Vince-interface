@@ -8,7 +8,9 @@ import android.view.ViewGroup
 import com.yamil.macdonals.R
 import com.yamil.macdonals.databinding.FragmentInicioBinding
 import com.yamil.macdonals.databinding.FragmentPalmistryBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class PalmistryFragment : Fragment() {
 
     private var _binding: FragmentPalmistryBinding? = null

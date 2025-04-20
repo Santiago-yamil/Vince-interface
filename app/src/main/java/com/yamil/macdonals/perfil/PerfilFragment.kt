@@ -8,7 +8,9 @@ import android.view.ViewGroup
 import com.yamil.macdonals.R
 import com.yamil.macdonals.databinding.FragmentLuckBinding
 import com.yamil.macdonals.databinding.FragmentPerfilBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class PerfilFragment : Fragment() {
 
     private var _binding: FragmentPerfilBinding? = null
