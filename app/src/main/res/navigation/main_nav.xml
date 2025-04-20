@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/inicioFragment"
+
+    >
+
+    <fragment
+        android:id="@+id/luckFragment"
+        android:name="com.yamil.macdonals.luck.LuckFragment"
+        android:label="fragment_luck"
+        tools:layout="@layout/fragment_luck" />
+    <fragment
+        android:id="@+id/palmistryFragment"
+        android:name="com.yamil.macdonals.palmisty.PalmistryFragment"
+        android:label="fragment_palmistry"
+        tools:layout="@layout/fragment_palmistry" />
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.yamil.macdonals.barras.InicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.yamil.macdonals.perfil.PerfilFragment"
+        android:label="fragment_perfil2"
+        tools:layout="@layout/fragment_perfil2" />
+</navigation>

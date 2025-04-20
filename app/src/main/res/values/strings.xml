@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">macdonals</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="primero">HOME</string>
+    <string name="segundo">Cupones</string>
+    <string name="tercero">Mis pedidos</string>
+    <string name="Users">Mi perfil</string>
+
+</resources>

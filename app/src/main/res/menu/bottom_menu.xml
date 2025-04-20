@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/inicioFragment"
+        android:title="@string/primero"
+        android:icon="@drawable/ic_numero_uno"/>
+    <item
+        android:id="@+id/luckFragment"
+        android:title="@string/segundo"
+        android:icon="@drawable/ic_numero_dos"/>
+    <item
+        android:id="@+id/palmistryFragment"
+        android:title="@string/tercero"
+        android:icon="@drawable/ic_numero_tres"/>
+    <item
+        android:id="@+id/perfilFragment"
+        android:title="@string/Users"
+        android:icon="@drawable/ic_numero_tres"/>
+
+</menu>
